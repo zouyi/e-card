@@ -1,0 +1,60 @@
+#myscroll {
+  margin: 40px auto;
+  width: 1800px;
+  height:350px;
+  top:920px;
+  left:255px;
+  position: relative;
+}
+ #back {
+   top:20px;
+  width: 0px;
+  height:325px;
+   background-color: bisque;
+  position: absolute;
+   text-align: center;
+ 
+ }
+
+#back img{
+
+}
+
+#left {
+  position: absolute;
+  left: 0;
+
+ }
+
+#left img{
+     width:250%;
+    height:250%;
+} 
+   
+ #right {
+  position: absolute;
+  left: 16px;
+  
+
+ }
+   
+#right img{
+  width:250%;
+    height:250%;
+} 
+   
+
+#description {
+  position:absolute;
+  left:220px;
+  font-size:18pt;
+  width:850px;
+ 
+
+  opacity:0.5;
+  padding:10px;
+  border-radius:20px;
+  background-color:white;
+  
+}
+
