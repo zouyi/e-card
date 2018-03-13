@@ -3,8 +3,11 @@
   width: 1800px;
   height:350px;
   top:920px;
-  left:255px;
-  position: relative;
+  left:60px;
+  z-index: 1;
+position:absolute;
+  background-color:white;
+ 
 }
  #back {
    top:20px;
