@@ -10,7 +10,7 @@ var timer = setInterval(function () {
   
 
    if(parseFloat(toTheLeft)>=1250){
-    toTheLeft=1250+"px";
+    toTheLeft=1366+"px";
     clearInterval(timer);
    }
   

@@ -1,9 +1,10 @@
 #myscroll {
-  margin: 40px auto;
-  width: 1800px;
+ margin-top:20px;
+  width: 1900px;
   height:350px;
   top:920px;
-  left:60px;
+  left:0px;
+  right:0px;
   z-index: 1;
 position:absolute;
   background-color:white;
