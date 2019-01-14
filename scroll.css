@@ -31,8 +31,8 @@ position:absolute;
  }
 
 #left img{
-     width:250%;
-    height:250%;
+     width:30px;
+    height:350px;
 } 
    
  #right {
@@ -43,8 +43,8 @@ position:absolute;
  }
    
 #right img{
-  width:250%;
-    height:250%;
+      width:30px;
+    height:350px;
 } 
    
 
