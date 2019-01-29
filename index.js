@@ -13,6 +13,7 @@ var screenIndex = 0;
 initialize = function(){
   
   leftward.style.display = "none";
+  rightward.style.display = "none";
   
   downward.addEventListener("click", function(){
     console.log("downward pressed");
@@ -36,14 +37,15 @@ initialize = function(){
    // bg.style.transition = "background-position 6s";
     yuanzibowl.style.display = "none";
     firework.style.display = "none";
+      rightward.style.display="none";
 
     bg.style.transition = "background-position 6s";
     bg.style.backgroundPosition = "50% 100%";
     
-    setTimeout(function(){screen2();},6000);
+    setTimeout(function(){
+      screen2();},6000);
 
   });
-        rightward.style.display="none";
 
   
     leftward.addEventListener("click", function(){
@@ -59,10 +61,10 @@ initialize = function(){
     yuanzibowl.src="resources/SVG/yuanzibowl.svg";
     yuanzibowl.id="yuanzibowl";
     yuanzibowl.style.position="absolute";
-    yuanzibowl.style.left="480px";
-    yuanzibowl.style.top="650px";
-    yuanzibowl.style.width="10%";
-    yuanzibowl.style.height="10%";
+    yuanzibowl.style.left="245px";
+    yuanzibowl.style.top="325px";
+    yuanzibowl.style.width="9%";
+    yuanzibowl.style.height="9%";
     yuanzibowl.style.cursor="pointer";
     yuanzibowl.setAttribute("onclick", "fact('yuanzibowl')");
     dispDiv.appendChild(yuanzibowl);
@@ -73,9 +75,9 @@ initialize = function(){
     firework.src="resources/SVG/firework.svg";
     firework.id="firework";
     firework.style.position="absolute";
-    firework.style.left="950px";
-    firework.style.top="700px";
-    firework.style.width="10%";
+    firework.style.left="480px";
+    firework.style.top="350px";
+    firework.style.width="9%";
     firework.style.height="10%";
     firework.style.cursor="pointer";
     firework.setAttribute("onclick", "fact('baozhu')");
@@ -141,10 +143,10 @@ initialize = function(){
     redroundlantern.id="redroundlantern";
     redroundlantern.className="swinglantern";
     redroundlantern.style.position="absolute";
-    redroundlantern.style.left="970px";
-    redroundlantern.style.top="316px";
-    redroundlantern.style.width="110px";
-    redroundlantern.style.height="20%";
+    redroundlantern.style.left="465px";
+    redroundlantern.style.top="158px";
+    redroundlantern.style.width="100px";
+    redroundlantern.style.height="16%";
     redroundlantern.style.cursor="pointer";
     redroundlantern.setAttribute("onclick", "fact('redlantern')");
     dispDiv.appendChild(redroundlantern);
@@ -157,10 +159,10 @@ var bluelantern = document.createElement("img");
     bluelantern.id="bluelantern";
     bluelantern.className="swinglantern";
     bluelantern.style.position="absolute";
-    bluelantern.style.left="830px";
-    bluelantern.style.top="330px";
-    bluelantern.style.width="140px";
-    bluelantern.style.height="20%";
+    bluelantern.style.left="400px";
+    bluelantern.style.top="165px";
+    bluelantern.style.width="100px";
+    bluelantern.style.height="15%";
     bluelantern.style.cursor="pointer";
     bluelantern.setAttribute("onclick", "fact('bluelantern')");
     dispDiv.appendChild(bluelantern);
@@ -174,10 +176,10 @@ var bluelantern = document.createElement("img");
     redrectlantern.id="redrectlantern";
     redrectlantern.className="swinglantern";
     redrectlantern.style.position="absolute";
-    redrectlantern.style.left="700px";
-    redrectlantern.style.top="310px";
+    redrectlantern.style.left="320px";
+    redrectlantern.style.top="158px";
     redrectlantern.style.width="140px";
-    redrectlantern.style.height="20%";
+    redrectlantern.style.height="15%";
     redrectlantern.style.cursor="pointer";
     redrectlantern.setAttribute("onclick", "fact('redrectlantern')");
     dispDiv.appendChild(redrectlantern);
@@ -191,10 +193,10 @@ var bluelantern = document.createElement("img");
     greenlantern.id="greenlantern";
     greenlantern.className="swinglantern";
     greenlantern.style.position="absolute";
-    greenlantern.style.left="530px";
-    greenlantern.style.top="316px";
-    greenlantern.style.width="110px";
-    greenlantern.style.height="20%";
+    greenlantern.style.left="240px";
+    greenlantern.style.top="157px";
+    greenlantern.style.width="100px";
+    greenlantern.style.height="16%";
     greenlantern.style.cursor="pointer";
     greenlantern.setAttribute("onclick", "fact('greenlantern')");
     dispDiv.appendChild(greenlantern);
@@ -208,10 +210,10 @@ var purplelantern = document.createElement("img");
     purplelantern.id="purplelantern";
     purplelantern.className="swinglantern";
     purplelantern.style.position="absolute";
-    purplelantern.style.left="380px";
-    purplelantern.style.top="332px";
-    purplelantern.style.width="140px";
-    purplelantern.style.height="20%";
+    purplelantern.style.left="180px";
+    purplelantern.style.top="167px";
+    purplelantern.style.width="100px";
+    purplelantern.style.height="15%";
     purplelantern.style.cursor="pointer";
     purplelantern.setAttribute("onclick", "fact('purplelantern')");
     dispDiv.appendChild(purplelantern);
@@ -225,10 +227,10 @@ var purplelantern = document.createElement("img");
     yellowlantern.id="yellowlantern";
     yellowlantern.className="swinglantern";
     yellowlantern.style.position="absolute";
-    yellowlantern.style.left="250px";
-    yellowlantern.style.top="307px";
-    yellowlantern.style.width="140px";
-    yellowlantern.style.height="20%";
+    yellowlantern.style.left="120px";
+    yellowlantern.style.top="155px";
+    yellowlantern.style.width="100px";
+    yellowlantern.style.height="15%";
     yellowlantern.style.cursor="pointer";
     yellowlantern.setAttribute("onclick", "fact('yellowlantern')");
     dispDiv.appendChild(yellowlantern);
@@ -345,6 +347,7 @@ screen2 = function(){
     screenIndex = 1;
 
   //move lanterns to top
+      rightward.style.display="none";
 
               grandma.style.display = "inline";
             boy.style.display = "inline";
@@ -359,8 +362,8 @@ screen2 = function(){
   
     
     downward.style.display="none";
+  
     leftward.style.display = "inline";
-      rightward.style.display="none";
 
 
 }
@@ -388,7 +391,6 @@ screen3 = function() {
           leftward.style.display="none";
     }
   
-    rightward.style.display="inline";
     
     console.log("clicked3");
     bg.style.backgroundPosition = "0% 100%";
@@ -414,6 +416,8 @@ screen3 = function() {
     
     yuanzibowl.style.display = "inline";
       firework.style.display = "inline";
+        rightward.style.display="inline";
+
 
   },6000);
 }
@@ -456,10 +460,10 @@ function fireup(){
     var firework = document.createElement("img");
     firework.src="resources/gif/firework.gif";
     firework.style.position="absolute";
-    firework.style.left="560px";
-    firework.style.top="50px";
-    firework.style.width="50%";
-    firework.style.height="50%";
+    firework.style.left="400px";
+    firework.style.top="20px";
+    firework.style.width="26%";
+    firework.style.height="30%";
     firework.style.cursor="pointer";
     dispDiv.appendChild(firework);
   setTimeout(function(){firework.remove();},3000);
@@ -506,7 +510,7 @@ function mlanternRising(mleft, randomTop){
     var lantern = document.createElement("div");
   
     /*medium lantern dimension*/
-    var sdim = 10;
+    var sdim = 7;
 
       //console.log(randomTop);
           //console.log("rantop is: "+randomTop);
@@ -541,9 +545,10 @@ function clanternRising(){
     lantern.src="resources/SVG/lantern.svg";
     lantern.className = "lanterns";
     lantern.id="lanternClick";
+    lantern.style.top="100%";
     lantern.style.left=mleft+"%";
-    lantern.style.width="204px";
-    lantern.style.height="240px";
+    lantern.style.width="102px";
+    lantern.style.height="120px";
     lantern.style.opacity="70%";
     lantern.style.cursor = "pointer";
     lantern.style.transition = "top 6s";
@@ -583,8 +588,8 @@ function generateMoon (){
     moon.style.position="absolute";
     moon.style.top="20%";
     moon.style.left=mleft+"%";
-    moon.style.width="300px";
-    moon.style.height="300px";
+    moon.style.width="150px";
+    moon.style.height="150px";
     moon.style.cursor = "pointer";
     moon.style.opacity = "0";
     moon.style.transition = "opacity 6s";

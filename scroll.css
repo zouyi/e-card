@@ -1,8 +1,8 @@
 #myscroll {
  margin-top:20px;
-  width: 1900px;
-  height:350px;
-  top:920px;
+  width: 704px;
+  height:175px;
+  top:410px;
   left:0px;
   right:0px;
   z-index: 1;
@@ -11,9 +11,9 @@ position:absolute;
  
 }
  #back {
-   top:20px;
-  width: 0px;
-  height:325px;
+   top:10px;
+  width: 720px;
+  height:163px;
    background-color: bisque;
   position: absolute;
    text-align: center;
@@ -31,8 +31,8 @@ position:absolute;
  }
 
 #left img{
-     width:30px;
-    height:365px;
+     width:15px;
+    height:183px;
 } 
    
  #right {
@@ -43,16 +43,16 @@ position:absolute;
  }
    
 #right img{
-      width:30px;
-    height:365px;
+    width:15px;
+    height:183px;
 } 
    
 
 #description {
   position:absolute;
-  left:220px;
-  font-size:18pt;
-  width:850px;
+  left:40px;
+  font-size:10pt;
+  width:605px;
  
 
   opacity:0.5;

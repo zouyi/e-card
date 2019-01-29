@@ -5,12 +5,12 @@ body{
 #bg{
    background-repeat:no-repeat;
     position:fixed;
-    width:1407px;
-    height:950px;
+    width:704px;
+    height:475px;
     background-size:cover;
     background-image: url("resources/SVG/starysky.svg");
     background-position:50% 0%;
-    background-size: 4200px 1874px;
+    background-size: 2100px 937px;
   z-index:0;
   top:0px;
   left:0px;
@@ -38,11 +38,11 @@ body{
 
   background-size:auto;
   
-  width:80%;
-  height:80%;
+  width:40%;
+  height:40%;
   position:fixed;
   z-index:1;
-  left:200px;
+  left:100px;
   transition: bottom 1s;
 
 
@@ -50,7 +50,7 @@ body{
 
 #display{
      z-index:0;
-  width:1000px;
+  width:704px;
 
 }
 
@@ -85,6 +85,7 @@ body{
 
 #moon {
   z-index: 2;
+
 }
 
 #moon:hover{
@@ -97,13 +98,13 @@ body{
   
   width: 0; 
   height: 0; 
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   
-  border-top: 30px solid #f00;
+  border-top: 15px solid #f00;
   cursor:pointer;
   left:47%;
-  top:96%;
+  top:87%;
   position:absolute;
 }
 
@@ -111,12 +112,13 @@ body{
     
 width: 0;
 height: 0;
-border-style: solid;border-width: 30px 30px 30px 0;
+border-style: solid;
+border-width: 15px 15px 15px 0;
 border-color: transparent #f00 transparent transparent;
       position:absolute;
   cursor:pointer;
 
-    top:50%;
+    top:45%;
     
 }
 
@@ -125,13 +127,13 @@ border-color: transparent #f00 transparent transparent;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 30px 0 30px 30px;
+  border-width: 15px 0 15px 15px;
   border-color: transparent transparent transparent #f00;
   position:absolute;
     cursor:pointer;
 
   right:0%;
-  top:50%;
+  top:45%;
 }
 
 

@@ -9,8 +9,8 @@ var timer = setInterval(function () {
    var toTheLeft=getComputedStyle(rightscroll).left;
   
 
-   if(parseFloat(toTheLeft)>=1250){
-    toTheLeft=1366+"px";
+   if(parseFloat(toTheLeft)>=680){
+    toTheLeft=685+"px";
     clearInterval(timer);
    }
   
